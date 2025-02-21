@@ -26,3 +26,19 @@
 //     AOS.refresh();
 //   }, 500);
 // });
+
+
+
+
+
+
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+          duration: 1000,
+          offset: 100,
+        });
+
+        setTimeout(() => {
+          AOS.refresh();
+        }, 500);
+      });
